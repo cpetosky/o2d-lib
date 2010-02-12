@@ -1,0 +1,139 @@
+<mx:WindowedApplication frameRate="120" width="800" height="600"
+	scriptTimeLimit="60"
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	paddingBottom="0" paddingLeft="0" paddingRight="0" paddingTop="0"
+	creationComplete="init()"
+	currentState="empty"
+	xmlns:editor="net.petosky.o2d.editor.*">
+	
+	<mx:Metadata>
+		[ResourceBundle("editor")]
+	</mx:Metadata>
+	<mx:Script>
+		<![CDATA[
+			import net.petosky.o2d.player.IPlayer;
+			import net.petosky.o2d.Map;
+			import net.petosky.o2d.Game;
+			import net.petosky.o2d.editor.LoadEvent;
+			import net.petosky.o2d.editor.SaveLoadManager;
+			import air.update.events.UpdateEvent;
+			import air.update.ApplicationUpdaterUI;
+
+			import net.petosky.events.FunctionalityEvent;
+			import net.petosky.events.StatusChangeEvent;
+			import mx.controls.Alert;
+			import mx.controls.Menu;
+			import mx.events.FlexNativeMenuEvent;
+			import mx.events.MenuEvent;
+			import mx.managers.PopUpManager;
+
+			private var _updater:ApplicationUpdaterUI = new ApplicationUpdaterUI();
+			private var _version:String;
+			
+			private var _saveLoadManager:SaveLoadManager;
+			
+			[Bindable]
+			private var _currentGame:Game;
+			
+			private var _player:IPlayer;
+			
+			private function menuClickListener(event:FlexNativeMenuEvent):void {
+				switch (event.item.@action.toString()) {
+					case "loadProject": loadProject(); break;
+				}
+			}
+			
+			private function loadProject():void {
+				_saveLoadManager.load();
+			}
+			
+			private function projectLoadCompleteListener(event:LoadEvent):void {
+				_currentGame = event.game;
+				currentState = "loaded";
+			}
+			
+			private function init():void {
+				trace("init");
+				_saveLoadManager = new SaveLoadManager(this);
+				_saveLoadManager.addEventListener(LoadEvent.LOAD_COMPLETE, projectLoadCompleteListener);
+				
+				// Skip updating if the user is using the debug version of AIR
+				// As far as I know, the only way this could be the case is if
+				// they're launching the app from ADL via Flex Builder, which
+				// means the user has to be a developer and there's no reason
+				// to update.
+				if (!Capabilities.isDebugger) {
+					_updater.updateURL = "http://petosky.net/o2d/update.xml";
+					_updater.addEventListener(UpdateEvent.INITIALIZED, checkForUpdate);
+					_updater.addEventListener(ErrorEvent.ERROR, updateErrorListener);
+					_updater.initialize();
+				}
+				start();
+			}
+			
+			private function checkForUpdate(event:UpdateEvent):void {
+				trace("Check");
+				_updater.checkNow();
+			}
+			
+			private function updateErrorListener(event:ErrorEvent):void {
+				// Don't care about update errors yet -- ignore
+			}
+			
+			private function start():void {
+				var appDescriptor:XML = NativeApplication.nativeApplication.applicationDescriptor;
+				var ns:Namespace = appDescriptor.namespace();
+				var appName:String = appDescriptor.ns::name;
+				var appCopyright:String = appDescriptor.ns::copyright;
+				var appVersion:String = appDescriptor.ns::version;
+
+				_version = appName + " " + appVersion;
+				status = _version;
+				
+//				areaEditor.addEventListener(StatusChangeEvent.STATUS_CHANGE, statusChangeListener);
+//				areaEditor.addEventListener(FunctionalityEvent.FUNCTION_AVAILABLE, functionalityListener);
+//				areaEditor.addEventListener(FunctionalityEvent.FUNCTION_UNAVAILABLE, functionalityListener);
+			}
+			
+			private function statusChangeListener(event:StatusChangeEvent):void {
+				status = _version + " | " + event.text;
+			}
+			
+			private function functionalityListener(event:FunctionalityEvent):void {
+				var label:String = resourceManager.getString("editor", event.functionID);
+				
+				for each (var menuNode:XML in menuItems..menuitem)
+					if (menuNode.@label && menuNode.@label.toString() == label)
+						menuNode.@enabled = event.type == FunctionalityEvent.FUNCTION_AVAILABLE ? "true" : "false";				
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:menu>
+		<mx:FlexNativeMenu id="menuBar" labelField="@label" itemClick="menuClickListener(event)" dataProvider="{menuItems}"/>
+	</mx:menu>
+
+	<mx:XMLList id="menuItems" xmlns="">
+		<menuitem label="File">
+			<menuitem label="@Resource(bundle='editor', key='LOAD_PROJECT_BUTTON')" action="loadProject" enabled="true"/>
+		</menuitem>
+	</mx:XMLList>
+	
+	<mx:states>
+		<mx:State name="empty">
+			<mx:AddChild relativeTo="{this}" position="lastChild">
+				<mx:target>
+					<mx:Text text="Please create or load a project to get started!"/>
+				</mx:target>
+			</mx:AddChild>
+		</mx:State>
+		<mx:State name="loaded">
+			<mx:AddChild relativeTo="{this}" position="first">
+				<mx:target>
+					<editor:ProjectViewer game="{_currentGame}" width="100%" height="100%"/>
+				</mx:target>
+			</mx:AddChild>
+		</mx:State>
+	</mx:states>
+	
+</mx:WindowedApplication>
