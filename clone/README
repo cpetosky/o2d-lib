@@ -1,0 +1,4 @@
+A puzzle game I made in 12 hours, and then ported to Kongregate, and then
+reskinned with some nicer graphics. Unfortuantely the port + reskin introduced
+a bug where somebody can swap a block into a falling block and they end up
+occupying the same space. I can't be bothered to fix it.
