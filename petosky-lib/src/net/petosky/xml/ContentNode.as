@@ -1,0 +1,1 @@
+package net.petosky.xml {	/**	 * @author cpetosky	 */	public class ContentNode extends Node {		public function ContentNode(parent:Element, name:String) {			super(parent, name);		}	}}

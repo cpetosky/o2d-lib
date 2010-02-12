@@ -1,0 +1,1 @@
+package net.petosky.xml.style.parsers {	/**	 * @author cpetosky	 */	final public class BooleanParser {		public static function parseString(s:String):Boolean {			return s == "true";		}	}}

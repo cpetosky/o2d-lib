@@ -1,0 +1,1 @@
+package net.petosky.collections {	/**	 * @author cpetosky	 */	public interface IPriorityQueue extends IQueue {		function get sortProperty():String;		function set sortProperty(value:String):void;				function get ascending():Boolean;		function set ascending(value:Boolean):void;				function get descending():Boolean;		function set descending(value:Boolean):void;	}}

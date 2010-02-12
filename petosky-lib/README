@@ -1,0 +1,8 @@
+A collection of various ActionScript 3 (Flash 10) utilities, including:
+	
+	* net.petosky.spelling -- a spellchecking engine with an English dictionary
+	* net.petosky.metaplay -- a framework for quickly creating simple games
+	* net.petosky.xml -- a CSS/HTML parser and renderer
+	* net.petosky.p2p -- a connection manager for Adobe Stratus
+	* net.petosky.input -- a mechanism to poll for keystates instead of listen
+	* net.petosky.collections -- a ridiculous amount of simple containers
