@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Window xmlns:mx="http://www.adobe.com/2006/mxml" alwaysInFront="true" activate="alwaysInFront=true;" deactivate="alwaysInFront=false;">
+	<mx:Script><![CDATA[
+	
+		import flash.desktop.NotificationType;
+
+		import mx.core.IWindow;
+		import mx.core.UIComponent;
+		import mx.events.AIREvent;
+		
+		public function show(parent:UIComponent):void {
+			while (!(parent is IWindow)) {
+				if (parent.parentDocument)
+					parent = parent.parentDocument as UIComponent;
+				else
+					throw new Error("Argument is not attached to an IWindow!");
+			}
+			open();
+			parent.addEventListener(AIREvent.WINDOW_ACTIVATE, parentActivateListener);
+		}
+		
+		private function parentActivateListener(event:AIREvent):void {
+			activate();
+			nativeWindow.notifyUser(NotificationType.INFORMATIONAL);
+		}
+	]]></mx:Script>
+</mx:Window>

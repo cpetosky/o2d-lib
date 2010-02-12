@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+	<name>Avatar</name>
+	<width>32</width>
+	<height>48</height>
+	<frames>4</frames>
+	<image>fighter.png</image>
+	<modes>
+		<mode>down</mode>
+		<mode>left</mode>
+		<mode>right</mode>
+		<mode>up</mode>
+	</modes>
+</entity>

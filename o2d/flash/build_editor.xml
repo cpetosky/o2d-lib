@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- *******************************************************************************************************
+	
+	author	: Stephan Partzsch
+	website	: http://www.powerflasher.de
+	date	: 05.10.2007
+	
+******************************************************************************************************** -->
+
+	<project default="1. Clean" name="o2d Editor">	<!-- Name of the application. -->
+	
+<!-- *******************************************************************************************************
+	
+	Please provide that your working directory fulfills the following conditions:
+	
+	* A directory named "icons" which includes icons for your application exists in your assets directory.
+	  For other names of the directory edit this in the application-descriptor-file. 
+	* A directory named "settings" exists in your assets directory.
+	* The "settings" folder contains the certification-file.
+	* The "settings" folder contains the application-descriptor-file which corresponds to the following 
+	  example: <application name>-app.xml.
+	  
+	  	application folder
+	  	|
+		+... src 				// contains your classes and main-file (as or mxml)
+		|
+		+... assets 			// contains all intern assets of your application
+		|		|
+		|		+.. settings  	// contains the application-descriptor-file and the certificate
+		|		+.. icons		// contains icons for the application
+		|		+.. etc			// other files
+		|
+		+... Build_Air.xml
+	  
+	Please edit the SDK path properties and also the project properties if necessary! 
+	 
+******************************************************************************************************** -->
+	
+	<!-- SDK path properties -->
+		<property name="sdk_dir" 	value="C:/Users/Cory/eclipse/plugins/com.powerflasher.fdt.shippedflex_3.3.0.4852_1000/flex" />	<!-- Path to the Flex 3 SDK. -->
+		<property name="mxmlc" 		value="${sdk_dir}/lib/mxmlc.jar" />
+		<property name="adl" 		value="${sdk_dir}/bin/adl.exe" />
+		<property name="adt" 		value="${sdk_dir}/lib/adt.jar" />
+		
+		
+		
+	<!-- Project properties -->
+	
+		<!-- *********** Start of editable properties *********** -->
+		
+			<property name="app_name" 			value="Editor" />		<!-- Name of the application. -->
+			<property name="app_root_dir" 		value="." />
+			<property name="app_type" 			value="mxml" /> 			<!-- Type of the apllication. mxml or as -->	
+			<property name="certificate_name" 	value="o2d" />	<!-- Name of the certificate -->
+			<property name="certificate_pw" 	value="ORMfan12" />	<!-- Password of the certificate -->
+			<property name="assets_dir_name" 	value="assets" />
+			
+			<!-- ONLY REQUIRED FOR CREATING A NEW CERTIFICATE -->
+			<property name="cert_name" 	value="o2d" />			<!-- Name of the certificate -->
+			<property name="password" 	value="ORMfan12" />			<!-- Password of the certificate -->
+			<property name="org_name" 	value="petosky.net" />			<!-- Name of the organisation -->
+			<property name="org_unit" 	value="petosky.net" />			<!-- Name of the unit -->
+			<property name="country" 	value="US" /> 		 			<!-- Country, should be a two-letter ISO-3166 country code. -->
+			<property name="key_type" 	value="1024-RSA" />				
+			<property name="cert_loc" 	location="${app_root_dir}/${assets_dir_name}/settings" />
+				
+			
+		<!-- ************ End of editable properties ************ -->
+		
+		
+		<property name="compilation" 	value="${app_name}.swf" />
+		<property name="air_file" 		value="${app_name}.air" />
+		<property name="app_descriptor" value="${app_root_dir}/${assets_dir_name}/settings/${app_name}-app.xml" />	
+		<property name="main_source" 	value="${app_root_dir}/src/${app_name}.${app_type}" />
+		<property name="certificate" 	value="${app_root_dir}/${assets_dir_name}/settings/${certificate_name}.pfx" />
+		<property name="debug_dir"  	location="${app_root_dir}/debug" />
+		<property name="publish_dir"  	location="${app_root_dir}/publish" />
+		<property name="build_dir"  	location="${app_root_dir}/build" />
+		<property name="assets_dir"  	location="${app_root_dir}/${assets_dir_name}" />
+	
+		
+		
+	<!-- Cleaning the built directories -->
+		<target name="1. Clean" description="clean up">
+			<delete dir="${debug_dir}" />
+			<delete dir="${build_dir}" />
+			<delete dir="${publish_dir}" />
+		</target>
+		
+				
+	<!-- Create required directories -->
+		<target name="2. Build directories">
+			<mkdir dir="${debug_dir}" />
+			<mkdir dir="${publish_dir}" />
+			<mkdir dir="${build_dir}" />
+		</target>
+		
+		
+	<!-- Compile SWF to debug directory and copy assets to debug directory -->
+		<target name="3. Compile for debugging" depends="2. Build directories">
+			<java jar="${mxmlc}" fork="true" failonerror="true">
+				<arg value="-debug=true" />
+				<arg value="+flexlib=${sdk_dir}/frameworks" />
+				<arg value="+configname=air" />
+				<arg value="-file-specs=${main_source}" />
+				<arg value="-output=${debug_dir}\${compilation}" />
+				<arg value="-library-path+=lib" />
+				<arg value="-source-path+=locale/{locale}" />
+				<arg value="-locale=en_US" />
+			</java>
+			<copy todir="${debug_dir}">
+				<fileset dir="${assets_dir}" />
+			</copy>
+		</target>
+		
+		
+	<!-- Compile SWF to build directory for packaging -->
+		<target name="4. Compile for publishing" depends="2. Build directories">
+			<java jar="${mxmlc}" fork="true" failonerror="true">
+				<arg value="-debug=false" />
+				<arg value="+flexlib=${sdk_dir}/frameworks" />
+				<arg value="+configname=air" />
+				<arg value="-file-specs=${main_source}" />
+				<arg value="-output=${build_dir}\${compilation}" />
+				<arg value="-library-path+=lib" />
+				<arg value="-source-path+=locale/{locale}" />
+				<arg value="-locale=en_US" />
+			</java>
+		</target>
+		
+		
+	<!-- Show application without packaging for developing -->
+		<target name="5. Test application" depends="3. Compile for debugging">
+			<exec executable="${adl}">
+				<arg value="${app_descriptor}" />
+				<arg value="${debug_dir}" />
+			</exec> 
+		</target>
+		
+		
+	<!-- Packaging the application to an air-file in the publish directory -->
+		<target name="6. Package application" depends="4. Compile for publishing">
+			<java jar="${adt}" fork="true" failonerror="true">
+				<arg value="-package" />
+				<arg value="-storetype" />
+				<arg value="pkcs12" />
+				<arg value="-keystore" />
+				<arg value="${certificate}" />
+				<arg value="-storepass" />
+				<arg value="${certificate_pw}" />
+				<arg value="${publish_dir}/${air_file}" />
+				<arg value="${app_descriptor}" />
+				<arg value="-C" />
+				<arg value="${build_dir}/" />
+				<arg value="${compilation}" />
+				
+				<arg value="-C" />
+				<arg value="${assets_dir}" />
+				<arg value="icons" />
+
+				
+<!-- *******************************************************************************************************
+	
+	For more assets add them in form of the following examples. 
+	Edit <${assets_dir}> to add files from other directories than the standard assets directory.
+	Note that all subdirectories will also be packaged!
+	 
+	 * for a single file:
+		<arg value="-C" />
+		<arg value="${assets_dir}" />
+		<arg value="example.png" />
+		
+	 * for a directory in the assets directory:
+	 	<arg value="-C" />
+		<arg value="${assets_dir}" />
+		<arg value="example_directory_name" />
+	 
+	 * for a subdirectory in an other directory in the assets directory:
+	 	<arg value="-C" />
+		<arg value="${assets_dir}/parent_directory" />
+		<arg value="example_directory_name" />	 
+		
+******************************************************************************************************** -->
+			
+			</java>
+		</target>
+		
+	
+	<!-- Creating a digital ID certificate -->
+		<target name="7. Creating certificate">
+			<java jar="${adt}" fork="true">
+				<arg value="-certificate" />
+				<arg value="-cn" />
+				<arg value="${cert_name}" />
+				<arg value="-ou" />
+				<arg value="${org_unit}" />
+				<arg value="-o" />
+				<arg value="${org_name}" />
+				<arg value="-c" />
+				<arg value="${country}" />
+				<arg value="${key_type}" />
+				<arg value="${cert_loc}/${cert_name}.pfx" />
+				<arg value="${password}" />	
+			</java>
+		</target>
+	
+	</project>

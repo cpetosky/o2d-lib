@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<title>o2d Demo</title>
+	<map>Medium</map>
+	<avatar>
+		<name>Avatar</name>
+		<x>3</x>
+		<y>4</y>
+	</avatar>
+</project>

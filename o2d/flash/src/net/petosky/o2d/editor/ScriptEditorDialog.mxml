@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<editor:ModalWindow xmlns:mx="http://www.adobe.com/2006/mxml" width="500" height="300" xmlns:editor="net.petosky.o2d.editor.*">
+	<mx:Script><![CDATA[
+	
+		import mx.events.ItemClickEvent;
+		
+		import net.petosky.o2d.Project;
+	
+		[Bindable]
+		public var project:Project;
+		
+		private function clickHandler(event:ItemClickEvent):void {
+			switch (event.index) {
+				case 0:
+					project.getScript(scriptList.selectedIndex).text = scriptEditor.text;
+					break;
+				case 1:
+					scriptEditor.text = project.getScript(scriptList.selectedIndex).text;
+					break;
+				case 2:
+					close();
+					break;
+			}
+		}
+	]]></mx:Script>
+	
+	<mx:HBox width="100%" height="100%">
+		<mx:List width="200" height="100%" id="scriptList" dataProvider="{project.scripts}" change="scriptEditor.text = scriptList.selectedItem[scriptList.selectedIndex].text;"/>
+		<mx:VBox width="100%" height="100%">
+			<editor:TabbableTextArea width="100%" height="100%" id="scriptEditor"/>
+			<mx:ButtonBar id="buttons" selectedIndex="0" itemClick="clickHandler(event);">
+				<mx:Object label="Save"/>
+				<mx:Object label="Revert"/>
+				<mx:Object label="Close"/>
+			</mx:ButtonBar>
+		</mx:VBox>
+		
+	</mx:HBox>
+	
+</editor:ModalWindow>

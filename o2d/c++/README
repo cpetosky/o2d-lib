@@ -1,0 +1,11 @@
+The o2d Project
+Source Release
+v0.0.2
+
+Developer: Cory Petosky
+           cory@tanatopia.net
+           http://o2dproject.net
+
+This program does not yet use Autoconf/Automake, but you should be able to figure it out. Check doc.html in this directory for more information. The most updated version of the documentation is always at <http://o2dproject.net/doc.html>.
+
+

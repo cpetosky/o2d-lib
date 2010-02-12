@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+	<map>
+		<name>Medium</name>
+		<description>Medium</description>
+		<filename>Medium.xml</filename>
+	</map>
+	<map>
+		<name>Small</name>
+		<description>Small</description>
+		<filename>Small.xml</filename>
+	</map>
+</maps>

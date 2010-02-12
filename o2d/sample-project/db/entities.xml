@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entities>
+	<entity>
+		<name>Avatar</name>
+		<description>Avatar</description>
+		<filename>fighter.xml</filename>
+	</entity>
+	<entity>
+		<name>Civilian</name>
+		<description>Idle</description>
+		<filename>civilian.xml</filename>
+	</entity>
+	<entity>
+		<name>Hunter</name>
+		<description>Test dummy</description>
+		<filename>hunter.xml</filename>
+	</entity>
+	<entity>
+		<name>Lancer</name>
+		<description>Move to path guy</description>
+		<filename>lancer.xml</filename>
+	</entity>
+</entities>

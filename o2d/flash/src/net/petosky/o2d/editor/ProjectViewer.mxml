@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:editor="net.petosky.o2d.editor.*" verticalGap="0">
+
+	<mx:Script><![CDATA[
+		import net.petosky.o2d.player.View;
+		import net.petosky.o2d.player.IPlayer;
+		import net.petosky.o2d.player.Player;
+		import net.petosky.o2d.Game;
+		import net.petosky.o2d.Map;
+		import net.petosky.o2d.Tile;
+		
+		import mx.events.FlexNativeMenuEvent;
+		import mx.managers.PopUpManager;
+		
+		[Bindable]
+		private var _game:Game;
+		
+		[Bindable]
+		private var _player:IPlayer;
+		
+		public function get game():Game {
+			return _game;
+		}
+		public function set game(value:Game):void {
+			_game = value;
+			_player = new Player(new View(0, 0, 1, 1, 0, 0),
+				_game.project.instantiateEntity(0,
+					_game.project.getMap(0), 15, 15));
+			
+			_game.addPlayer(_player);
+			
+			currentState = "ready";
+		}
+		
+		private function mapMenuRightClickListener(event:FlexNativeMenuEvent):void {
+			switch (event.item.@action.toString()) {
+				case "mapProperties":  mapProperties();  break;
+			}			
+		}
+		
+		private function mapProperties():void {
+			var map:Map = mapList.selectedItem as Map;
+			
+			(new MapPropertiesDialog()).show(this);
+			//PopUpManager.addPopUp(new MapPropertiesDialog(), this, true);
+		}
+		
+	]]></mx:Script>
+	
+	<mx:states>
+		<mx:State name="ready">
+			<mx:AddChild relativeTo="{this}" position="lastChild">
+				<mx:target>
+					<mx:HBox width="100%">
+						<mx:ToggleButtonBar id="layerButtons" selectedIndex="0">
+							<mx:Object label="" icon="@Embed(source='/../assets/icons/layer_bottom.png')" toolTip="Bottom layer"/>
+							<mx:Object label="" icon="@Embed(source='/../assets/icons/layer_middle.png')" toolTip="Middle layer"/>
+							<mx:Object label="" icon="@Embed(source='/../assets/icons/layer_top.png')" toolTip="Top layer"/>
+						</mx:ToggleButtonBar>
+					</mx:HBox>
+				</mx:target>
+			</mx:AddChild>
+			<mx:AddChild relativeTo="{this}" position="lastChild">
+				<mx:target>
+					<mx:HBox height="100%" width="100%" horizontalGap="0" >
+						<mx:VDividedBox height="100%">
+							<editor:PaletteViewer width="{8 * Tile.SIZE + 18}" height="75%" id="paletteViewer" palette="{_player.map.palette}"/>
+							<mx:Tree width="100%" id="mapList" dataProvider="{_game.project.maps}" creationComplete="mapListContextMenu.setContextMenu(mapList)"/>
+						</mx:VDividedBox>				
+						<editor:GameViewer width="100%" height="100%" game="{_game}" player="{_player}"
+							tileToDraw="{paletteViewer.selectedTile}"
+							layerToDraw="{layerButtons.selectedIndex}"/>
+					</mx:HBox>
+				</mx:target>
+			</mx:AddChild>
+		</mx:State>
+	</mx:states>
+	
+	<mx:XMLList id="mapMenuItems" xmlns="">
+		<menuitem label="@Resource(bundle='editor', key='MAP_PROPERTIES_BUTTON')" action="mapProperties" enabled="true"/>
+	</mx:XMLList>
+	
+	<mx:FlexNativeMenu id="mapListContextMenu" labelField="@label" itemClick="mapMenuRightClickListener(event)" dataProvider="{mapMenuItems}"/>
+</mx:VBox>

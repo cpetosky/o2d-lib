@@ -1,0 +1,32 @@
+﻿<Window x:Class="EditorWPF.Editor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+    Title="o2d Editor" Height="Auto" Width="Auto">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Name="NewProject" Header="New Project..." Click="NewProject_Click"/>
+                <MenuItem Name="LoadProject" Header="Load Project..." Click="LoadProject_Click"/>
+                <Separator/>
+                <MenuItem Name="SaveProject" Header="Save Project" Click="SaveProject_Click"/>
+                <MenuItem Name="SaveProjectAs" Header="Save Project As..." Click="SaveProjectAs_Click"/>
+            </MenuItem>
+            <MenuItem Header="Dev/Temp">
+                <MenuItem Name="CreateDefaultPalette" Header="Create Default Palette" Click="CreateDefaultPalette_Click"/>
+                <MenuItem Name="CreateDefaultMap" Header="Create Default Map" Click="CreateDefaultMap_Click"/>
+            </MenuItem>
+        </Menu>
+        <StatusBar Name="statusBar" DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock Name="statusText">Load or create a project to begin.</TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+        <WindowsFormsHost DockPanel.Dock="Left" Width="256" Height="600">
+            <wf:Panel x:Name="palettePanel"/>
+        </WindowsFormsHost>
+        <WindowsFormsHost DockPanel.Dock="Bottom" Width="800" Height="600">
+            <wf:Panel x:Name="renderPanel"/>
+        </WindowsFormsHost>
+    </DockPanel>
+</Window>

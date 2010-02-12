@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scripts>
+	<script>
+		<name>IDLE Circle Walk</name>
+		<description>Entity walks in a circle.</description>
+		<filename>idle_circle_walk.o2s</filename>
+	</script>
+	<script>
+		<name>TIMER Circle Walk</name>
+		<description>Entity walks in a circle.</description>
+		<filename>timer_circle_walk.o2s</filename>
+	</script>
+	<script>
+		<name>INIT Circle Walk</name>
+		<description>Entity walks in a circle.</description>
+		<filename>init_circle_walk.o2s</filename>
+	</script>
+</scripts>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+	<name>Lancer</name>
+	<width>32</width>
+	<height>48</height>
+	<frames>4</frames>
+	<image>lancer.png</image>
+	<scripts>
+		<idle>IDLE Circle Walk</idle>
+		<timer>TIMER Circle Walk</timer>
+		<init>INIT Circle Walk</init>
+	</scripts>
+	<modes>
+		<mode>down</mode>
+		<mode>left</mode>
+		<mode>right</mode>
+		<mode>up</mode>
+	</modes>
+</entity>

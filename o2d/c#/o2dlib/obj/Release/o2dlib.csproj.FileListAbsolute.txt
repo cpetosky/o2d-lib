@@ -1,0 +1,5 @@
+C:\Users\Cory\Documents\XNA\o2dlib\bin\Release\o2dlib.dll
+C:\Users\Cory\Documents\XNA\o2dlib\bin\Release\o2dlib.pdb
+C:\Users\Cory\Documents\XNA\o2dlib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\XNA\o2dlib\obj\Release\o2dlib.dll
+C:\Users\Cory\Documents\XNA\o2dlib\obj\Release\o2dlib.pdb

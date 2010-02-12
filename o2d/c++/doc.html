@@ -1,0 +1,68 @@
+<p>The o2d project provides two utilities. First and foremost, it provides a cross-platform game engine that reads data from an XML-based project. Secondly, it provides the editor for these projects. This manual attempts to document both of these facilities.</p>
+
+<h2>Contents</h2>
+
+<ol>
+ <li><a href="#quick-start">Quick start</a></li>
+ <li><a href="#sample-project">Sample project</a></li>
+ <li><a href="#game-controls">Game controls</a></li>
+</ol>
+
+<h2><a name="quick-start"></a>Quick start</h2>
+
+<p>Your first step should be to download the o2d project. All files are distributed via the <a href="http://sourceforge.net/project/showfiles.php?group_id=192955">SourceForge file manager</a>. Choose the most recent version (0.0.2 at the time of this writing) and download the appropriate file.</p>
+
+<h3>Compiling from source</h3>
+
+<p>If a binary release exists for your platform, you can skip this section.</p>
+
+<p>Though the source is not platform-specific, it is, generally speaking, easier to compile on a Unix-like operating system. Because this project does not yet use Autoconf/Automake, you will probably need to edit the makefile by hand and adjust some directories (probably the Python directory).</p>
+
+<p>The o2d project has the following dependencies. Be sure these are installed before attempting to compile.</p>
+
+<ul>
+ <li>SDL >= 1.2</li>
+ <li>SDL_image >= 1.2</li>
+ <li>SDL_ttf >= 2.0</li>
+ <li>gtkmm >= 2.4</li>
+ <li>libxml++ >= 2.6</li>
+ <li>boost_filesystem >= 1.33.1</li>
+ <li>boost_python >= 1.33.1</li>
+</ul>
+
+<h3>Running the programs</h3>
+
+<p>An executable called editor should exist in your o2d root directory. Run this file to launch the o2d editor. No project is loaded by default, so your first step should be to create a new project, by clicking "New project" in the file menu. Find or create an empty directory and select it for a blank o2d project to be created. Note that whatever title you choose for your project will appear in the title window of your game.</p>
+
+<p>A new project doesn't have much in it. The only thing created for you is an empty palette. Your next step should be to assemble a useful tile palette. However, to do this, you'll first need to get some graphics. RPG Maker XP tilesets are a great first step. However, you'll need to break the tileset up into individual 32x32 images for o2d to use them. A facility to import and tile larger images automatically is scheduled for a future release, but for now, you can use any good image editing tool to quickly do this.</p>
+
+<p>You should put all your images into PROJ_ROOT/gfx/textures, or any subdirectory. If the images aren't located here, they won't be read by the editor or the game.</p>
+
+<p>Once you have a collection of images, you can add them to a palette by launching the palette editor from the tools menu. It will list all the tiles available to the project. By double-clicking a file name, you set the tile as "active." Once you have an active tile, move your mouse over to the palette and click the location you wish to add the tile to. Repeat this process until you have a graphically complete palette! Once you're done, you can close the palette editor.</p>
+
+<p>It is important to note that the palette editor does not yet provide a facility for adjusting tile priority or passage restrictions. This facility will be added in a future release, but in the meantime, you can directly edit the XML of the palette file (located in PROJ_ROOT/palettes) to adjust these parameters for each tile.</p>
+
+<p>Now that you have a palette, you can create a new map, via the New map option in the Map menu. Specify your map's properties and hit okay. By default, the bottom layer of your map will be filled with the tile in the upper-left corner of your palette.</p>
+
+<p>You can now edit your new map to your heart's content. Click any tile in the palette to make it "active." You can then click (and drag) on the map to draw that tile in. You can use the layer buttons above the map window to draw tiles on three seperate layers of the map. Using layers, you can create complex graphical combinations that flow together seamlessly.</p>
+
+<p>Because most of the other creation tools are incomplete, this is the end of the easy half of the quick start guide.</p>
+
+<h2><a name="sample-project"></a>Sample project</h2>
+
+<p>A sample project exists in the O2D_ROOT/sample directory. If you'd like to avoid finding your own images and just want to see what the tools can do, this is your solution.</p>
+
+<p>If you'd like to see an engine demo, one is available. Run the "game.py" Python script in the o2d root directory to see. The engine demo uses the sample project data. If you copy db/entities.xml and the "entities", "gfx/entities", and "scripts" directories to your own project, and edit game.py to reflect the path to your own project, you should be able to run the engine demo on your own maps.</p>
+
+<h2><a name="game-controls"></a>Game controls</h2>
+
+<dl>
+ <dt>Arrow keys</dt>
+ <dd>Movement</dd>
+ <dt>F10</dt>
+ <dd>Show debug information, like framerate</dd>
+ <dt>F11</dt>
+ <dd>Switch between hardware and software rendering (probably does nothing)</dd>
+ <dt>F12</dt>
+ <dd>Toggle fullscreen mode</dd>
+</dl>

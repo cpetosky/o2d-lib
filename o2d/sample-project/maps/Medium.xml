@@ -1,0 +1,6266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<name>Medium</name>
+	<width>40</width>
+	<height>30</height>
+	<palette>Grasslands</palette>
+	<tile>
+		<x>0</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>5</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>9</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>10</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>11</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>12</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>13</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>14</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>15</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>16</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>17</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>18</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>19</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>20</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>21</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>22</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>23</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>24</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>25</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>26</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>0</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>5</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>9</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>10</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>11</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>12</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>13</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>14</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>15</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>16</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>17</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>18</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>19</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>20</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>21</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>22</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>23</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>24</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>25</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>26</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>1</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+		<layer num="1">7</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>2</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">4</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>3</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+		<layer num="1">15</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>4</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+		<layer num="1">15</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">31</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">31</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>5</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">31</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">31</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>6</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">112</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">120</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">128</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">136</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>9</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+		<layer num="1">4</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+		<layer num="1">7</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>7</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+		<layer num="1">105</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">113</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">121</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">129</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>8</y>
+		<layer num="0">135</layer>
+		<layer num="1">137</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>9</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>8</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+		<layer num="1">106</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">114</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">122</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">130</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>8</y>
+		<layer num="0">135</layer>
+		<layer num="1">138</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>9</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+		<layer num="1">29</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>9</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+		<layer num="1">107</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">115</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">123</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">131</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>8</y>
+		<layer num="0">135</layer>
+		<layer num="1">139</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>9</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+		<entity>Lancer</entity>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+		<layer num="1">15</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>10</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">116</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">124</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">132</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">140</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>9</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+		<layer num="1">4</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>26</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>27</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>11</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>26</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>27</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>12</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+		<layer num="1">7</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>26</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>27</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>13</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+		<layer num="1">4</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>26</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>27</y>
+		<layer num="0">134</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>14</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">48</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">56</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">64</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+		<layer num="1">72</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>15</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">41</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">49</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">57</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">65</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+		<layer num="1">73</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>16</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">42</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">50</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">58</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">66</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+		<layer num="1">74</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>15</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>16</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>17</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>18</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>19</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>20</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>21</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>22</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>23</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>24</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>25</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>26</y>
+		<layer num="0">135</layer>
+		<layer num="2">80</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>27</y>
+		<layer num="0">135</layer>
+		<layer num="1">85</layer>
+		<layer num="2">88</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+		<layer num="1">85</layer>
+		<layer num="2">88</layer>
+	</tile>
+	<tile>
+		<x>17</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+		<layer num="1">85</layer>
+		<layer num="2">88</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">51</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+		<layer num="1">59</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">67</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+		<layer num="1">75</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>15</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>16</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>17</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>18</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>19</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>20</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>21</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>22</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>23</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>24</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>25</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>26</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>27</y>
+		<layer num="0">135</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>18</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>15</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>16</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>17</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>18</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>19</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>20</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>21</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>22</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>23</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>24</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>25</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>26</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>27</y>
+		<layer num="0">135</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>19</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+		<layer num="1">48</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+		<layer num="1">56</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+		<layer num="1">64</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">72</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>10</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>15</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>16</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>17</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>18</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>19</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>20</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>21</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>22</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>23</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>24</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>25</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>26</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>27</y>
+		<layer num="0">135</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>20</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+		<layer num="1">86</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+		<layer num="1">41</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+		<layer num="1">49</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+		<layer num="1">57</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+		<layer num="1">65</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">73</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>11</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>12</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>13</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>14</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>15</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>16</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>17</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>18</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>19</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>20</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>21</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>22</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>23</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>24</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>25</y>
+		<layer num="0">135</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>26</y>
+		<layer num="0">135</layer>
+		<layer num="2">81</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>27</y>
+		<layer num="0">135</layer>
+		<layer num="1">87</layer>
+		<layer num="2">89</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+		<layer num="1">87</layer>
+		<layer num="2">89</layer>
+	</tile>
+	<tile>
+		<x>21</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+		<layer num="1">87</layer>
+		<layer num="2">89</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+		<layer num="1">42</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+		<layer num="1">50</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+		<layer num="1">58</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+		<layer num="1">66</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">74</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>22</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+		<layer num="1">51</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+		<layer num="1">59</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+		<layer num="1">67</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+		<layer num="1">75</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>23</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+		<layer num="1">7</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>24</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+		<layer num="1">4</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>25</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>21</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>26</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+		<layer num="1">7</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+		<layer num="1">23</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+		<layer num="2">52</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">60</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">68</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>19</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>20</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>21</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>27</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>2</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>3</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>4</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>5</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>6</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>7</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+		<layer num="2">45</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+		<layer num="2">53</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">61</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">69</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">77</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>19</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>20</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>21</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>23</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>28</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>5</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>8</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+		<layer num="2">46</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+		<layer num="2">54</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">62</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">70</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">78</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>23</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>29</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>5</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+		<layer num="2">55</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">63</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">71</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">79</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+		<layer num="1">6</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>23</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>30</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>2</y>
+		<layer num="0">134</layer>
+		<layer num="1">16</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>3</y>
+		<layer num="0">134</layer>
+		<layer num="1">32</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>5</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">21</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+		<layer num="1">6</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>23</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+		<layer num="1">7</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>31</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>2</y>
+		<layer num="0">134</layer>
+		<layer num="1">17</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>3</y>
+		<layer num="0">134</layer>
+		<layer num="1">35</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>4</y>
+		<layer num="0">134</layer>
+		<layer num="1">24</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>5</y>
+		<layer num="0">134</layer>
+		<layer num="1">32</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">5</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>23</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>27</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>32</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>2</y>
+		<layer num="0">134</layer>
+		<layer num="1">17</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>3</y>
+		<layer num="0">134</layer>
+		<layer num="1">25</layer>
+		<layer num="2">9</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>4</y>
+		<layer num="0">134</layer>
+		<layer num="1">25</layer>
+		<layer num="2">158</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>5</y>
+		<layer num="0">134</layer>
+		<layer num="1">33</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+		<layer num="2">13</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>19</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>20</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>21</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>23</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>33</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>2</y>
+		<layer num="0">134</layer>
+		<layer num="1">17</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>3</y>
+		<layer num="0">134</layer>
+		<layer num="1">25</layer>
+		<layer num="2">158</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>4</y>
+		<layer num="0">134</layer>
+		<layer num="1">25</layer>
+		<layer num="2">12</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>5</y>
+		<layer num="0">134</layer>
+		<layer num="1">33</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>13</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>14</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>15</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>16</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>17</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>18</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>19</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>20</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>21</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>22</y>
+		<layer num="0">143</layer>
+		<layer num="1">150</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>34</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>2</y>
+		<layer num="0">134</layer>
+		<layer num="1">17</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>3</y>
+		<layer num="0">134</layer>
+		<layer num="1">25</layer>
+		<layer num="2">11</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>4</y>
+		<layer num="0">134</layer>
+		<layer num="1">25</layer>
+		<layer num="2">158</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>5</y>
+		<layer num="0">134</layer>
+		<layer num="1">33</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>35</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>2</y>
+		<layer num="0">134</layer>
+		<layer num="1">18</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>3</y>
+		<layer num="0">134</layer>
+		<layer num="1">26</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>4</y>
+		<layer num="0">134</layer>
+		<layer num="1">28</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>5</y>
+		<layer num="0">134</layer>
+		<layer num="1">33</layer>
+		<layer num="2">2</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+		<layer num="1">7</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+		<layer num="1">15</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>36</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>4</y>
+		<layer num="0">134</layer>
+		<layer num="1">18</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>5</y>
+		<layer num="0">134</layer>
+		<layer num="1">34</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>9</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>10</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>11</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>12</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>13</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>14</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>15</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>16</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>17</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>18</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>19</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>20</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>21</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>22</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>23</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>24</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>25</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>26</y>
+		<layer num="0">0</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>37</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>5</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>9</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>10</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>11</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>12</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>13</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>14</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>15</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>16</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>17</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>18</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>19</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>20</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>21</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>22</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>23</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>24</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>25</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>26</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>38</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>0</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>1</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>2</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>3</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>4</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>5</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>6</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>7</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>8</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>9</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>10</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>11</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>12</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>13</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>14</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>15</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>16</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>17</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>18</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>19</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>20</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>21</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>22</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>23</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>24</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>25</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>26</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>27</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>28</y>
+		<layer num="0">133</layer>
+	</tile>
+	<tile>
+		<x>39</x>
+		<y>29</y>
+		<layer num="0">133</layer>
+	</tile>
+</map>

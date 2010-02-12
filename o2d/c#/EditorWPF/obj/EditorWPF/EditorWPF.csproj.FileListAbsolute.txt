@@ -1,0 +1,16 @@
+C:\Users\Cory\Documents\XNA\EditorWPF\bin\EditorWPF\EditorWPF.exe
+C:\Users\Cory\Documents\XNA\EditorWPF\bin\EditorWPF\EditorWPF.pdb
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\ResolveAssemblyReference.cache
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\App.g.cs
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\EditorWPF_MarkupCompile.cache
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\EditorWPF.g.resources
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\EditorWPF.Properties.Resources.resources
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\EditorWPF.csproj.GenerateResource.Cache
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\EditorWPF.exe
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\EditorWPF.pdb
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\Editor.baml
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\Editor.g.cs
+C:\Users\Cory\Documents\XNA\EditorWPF\bin\EditorWPF\o2dlib.dll
+C:\Users\Cory\Documents\XNA\EditorWPF\bin\EditorWPF\o2dlib.pdb
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\NewProjectDialog.baml
+C:\Users\Cory\Documents\XNA\EditorWPF\obj\EditorWPF\NewProjectDialog.g.cs

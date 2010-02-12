@@ -1,0 +1,18 @@
+Walk to tile ~ , ~
+  int 0 200
+  int 0 200
+Set timer to ~
+  int 0 1000000
+Print to ~ message ~
+  choice 3
+    game window
+    console
+    logs
+  string
+Rotate left 90 degrees
+Rotate right 90 degrees
+Set moving state to ~
+  bool
+Teleport to tile ~ , ~
+  int 0 200
+  int 0 200

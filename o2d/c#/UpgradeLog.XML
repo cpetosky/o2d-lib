@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="o2d">
+</Property><Property Name="Solution File" Value="C:\Users\Cory\Documents\XNA\o2d.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Cory\Documents\XNA\o2d.suo">
+</Property><Property Name="Date" Value="Wednesday, April 08, 2009">
+</Property><Property Name="Time" Value="22:52 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="o2d.sln" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d.sln">
+</Event><Event ErrorLevel="0" Project="" Source="o2d.suo" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d.suo">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\o2dPipeline.csproj" Description="Project file successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\o2dPipeline.csproj">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\EntityGraphicsWriter.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\EntityGraphicsWriter.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\EntityGraphicsContent.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\EntityGraphicsContent.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\MapContent.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\MapContent.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\Main.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\Main.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\MapWriter.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\MapWriter.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\PaletteContent.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\PaletteContent.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\PaletteWriter.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\PaletteWriter.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2dPipeline\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\o2dPipeline.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="o2dPipeline" Source="o2dPipeline\o2dPipeline.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\o2d.csproj" Description="Upgraded XNA Game Studio nested content projects.">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\o2d.csproj" Description="Upgraded XNA Game Studio project.">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\o2d.csproj" Description="Project file successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\o2d.csproj">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\o2d.csproj.user" Description="Project user file successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\o2d.csproj.user">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\actions\Action.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\actions\Action.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\actions\OpenRucksackAction.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\actions\OpenRucksackAction.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\actions\SprintAction.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\actions\SprintAction.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\ButtonLegend.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\ButtonLegend.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\InterfaceElement.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\InterfaceElement.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\items\Item.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\items\Item.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\items\Rucksack.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\items\Rucksack.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\items\SprintShoes.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\items\SprintShoes.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\map\Region.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\map\Region.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\Resource.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\Resource.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\ResourceBundle.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\ResourceBundle.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\RucksackInterface.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\RucksackInterface.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\tanatopia\ButtonUtilities.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\tanatopia\ButtonUtilities.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\tanatopia\collections\PriorityQueue.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\tanatopia\collections\PriorityQueue.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\entities\Entity.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\entities\Entity.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\entities\EntityGraphics.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\entities\EntityGraphics.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\entities\readers\EntityGraphicsReader.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\entities\readers\EntityGraphicsReader.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\MainGame.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\MainGame.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\map\Map.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\map\Map.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\map\readers\MapReader.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\map\readers\MapReader.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\map\Palette.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\map\Palette.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\map\readers\PaletteReader.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\map\readers\PaletteReader.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\Player.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\Player.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\Program.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\Program.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\tanatopia\Drawer.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\tanatopia\Drawer.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\map\Tile.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\map\Tile.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\tanatopia\TextureUtilities.cs" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\tanatopia\TextureUtilities.cs">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\GameThumbnail.png" Description="File successfully backed up as C:\Users\Cory\Documents\XNA\Backup\o2d\GameThumbnail.png">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\o2d.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="o2d" Source="o2d\o2d.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="o2d.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="o2d.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\o2dPipeline.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\o2dPipeline.csproj" Description="Upgraded XNA Framework Content Pipeline References.">
+</Event><Event ErrorLevel="0" Project="o2dPipeline" Source="o2dPipeline\o2dPipeline.csproj" Description="Upgraded XNA Framework References.">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\o2d.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="o2d" Source="o2d\o2d.csproj" Description="Upgraded XNA Framework References.">
+</Event><Event ErrorLevel="0" Project="Content" Source="GameThumbnail.png.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="ButtonLegend.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Content.contentproj.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Content.contentproj.user.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="GameThumbnail.png.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="InterfaceElement.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="MainGame.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="o2d.csproj.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="o2d.csproj.user.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Player.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Program.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Resource.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="ResourceBundle.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="RucksackInterface.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="dir-prop-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Action.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="OpenRucksackAction.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="SprintAction.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Action.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="OpenRucksackAction.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="SprintAction.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Entity.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="EntityGraphics.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="EntityGraphicsReader.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="EntityGraphicsReader.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Entity.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="EntityGraphics.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Item.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Rucksack.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="SprintShoes.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Item.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Rucksack.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="SprintShoes.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Map.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Palette.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Region.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Tile.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="MapReader.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="PaletteReader.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="MapReader.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="PaletteReader.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Map.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Palette.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Region.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Tile.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="AssemblyInfo.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="AssemblyInfo.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="ButtonUtilities.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Drawer.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="TextureUtilities.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="PriorityQueue.cs.svn-base" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="all-wcprops" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="entries" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="format" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="PriorityQueue.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="ButtonUtilities.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Drawer.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="TextureUtilities.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="ButtonLegend.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Content.contentproj" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Content.contentproj.user" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="GameThumbnail.png" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="InterfaceElement.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="MainGame.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="o2d.csproj" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="o2d.csproj.user" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Player.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Program.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="Resource.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="ResourceBundle.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="Content" Source="RucksackInterface.cs" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event></UpgradeLog>
