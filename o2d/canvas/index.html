@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Canvas experiments</title>
+	<style type="text/css">  
+		canvas { border: 1px solid black; }  
+    </style>
+</head>
+<body>
+	<canvas id="view" width="640" height="480"></canvas>
+	<div id="output"></div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript">
+		function main() {
+			var game = new Game($("#view"), $("#output"));
+			game.start();
+		}
+		
+		$(document).ready(main);
+	</script>
+</body>
+</html>
