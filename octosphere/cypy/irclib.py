@@ -134,6 +134,9 @@ class IRC(asynchat.async_chat):
   def join(self, channel, password=''):
     self._send_command('JOIN', channel, password)
 
+  def send_message(self, target, message):
+    self._send_command('PRIVMSG', str(target), message)
+
   # callbacks
   def on_connect(self):
     pass

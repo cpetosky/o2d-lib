@@ -1,8 +1,22 @@
+"""Octosphere -- an IRC bot framework
+
+Dependencies:
+  * cypy >= 1.0
+"""
 import asyncore
-import irclib
-import thread
+from cypy import irclib
 
 class CommandProcessor(object):
+  """
+
+  Define commands to handle by implementing methods of the form:
+
+  handle_<command_string>(self, bot, sender, message)
+
+  If the function returns True, no further processors attempt to parse the
+  command.
+
+  """
   def __init__(self):
     self._prefix = ''
     self._commands = {}
@@ -13,7 +27,7 @@ class CommandProcessor(object):
   def default_handler(self, bot):
     pass
 
-  def handle(self, bot, message):
+  def handle(self, bot, sender, message):
     if message.startswith(self._prefix):
       message = message[len(self._prefix):]
     
@@ -23,19 +37,19 @@ class CommandProcessor(object):
 
     command, rest = (message.split(' ', 1) + [''])[:2]
     if command in self._commands:
-      return self._commands[command](bot, rest)
+      return self._commands[command](bot, sender, rest)
     return False
 
-class DefaultCommandProcessor(CommandProcessor):
-  def handle_joinchannel(self, bot, message):
-    channel, password = (message.split(' ', 1) + [''])[:2]
+class DefaultProcessor(CommandProcessor):
+  def handle_joinchannel(self, bot, sender, message):
+    channel, password = (message.split(None, 1) + [''])[:2]
     bot.join(channel, password)
     return True
 
 class Octosphere(irclib.IRC):
   def __init__(self, nick='Octosphere', user_name='', real_name=''):
     irclib.IRC.__init__(self, nick, user_name, real_name)
-    self.processors = [DefaultCommandProcessor()]
+    self.processors = []
 
   def start(self, host='', port=6667, password=''):
     if host:
@@ -54,17 +68,5 @@ class Octosphere(irclib.IRC):
 
   def on_private_message(self, sender, message):
     for processor in self.processors:
-      if processor.handle(self, message):
+      if processor.handle(self, sender, message):
         return
-
-if __name__ == '__main__':
-  bot = Octosphere()
-  thread.start_new(bot.start, ('irc.synirc.net',))
-
-  while True:
-    try:
-      command = raw_input('')
-    except (EOFError, KeyboardInterrupt):
-      break
-    else:
-      bot.push('%s\r\n' % command)
