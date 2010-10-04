@@ -1,0 +1,8 @@
+banned-ips.txt
+banned-players.txt
+minecraft_server.jar
+ops.txt
+server.log
+server.properties
+world
+*.pyc
