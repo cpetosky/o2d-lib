@@ -120,7 +120,16 @@ class AdminClient(asynchat.async_chat):
     self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
     asynchat.async_chat.connect(self, (host, port))
     self.send_command(password)
+
+    # immediately get player list, so our internal list is up-to-date
+    self.send_command('list')
   
+  def run(self):
+    asyncore.loop()
+
+  def run_async(self):
+    thread.start_new(self.run, ())
+
   def send_command(self, command):
     if command[-1:] != '\n':
       command += '\n'
@@ -142,8 +151,14 @@ class AdminClient(asynchat.async_chat):
     except Empty:
       pass
 
-  __logged_in_regex = re.compile(r'^(?P<user>[A-Za-z0-9_-]+) \[.*\] logged in$')
-  __logged_out_regex = re.compile(r'^(?P<user>[A-Za-z0-9_-]+) lost connection:')
+  __logged_in_regex = re.compile(
+      r'^(?P<user>[A-Za-z0-9_-]+) \[.*\] logged in$')
+  __logged_out_regex = re.compile(
+      r'^(?P<user>[A-Za-z0-9_-]+) lost connection:')
+  __list_regex = re.compile(
+      r'^Connected players: (?P<users>([A-Za-z0-9_-]+(, )?)*)$')
+  __command_regex = re.compile(
+      r'^(?P<user>[A-Za-z0-9_-]+) tried command: (?P<command>[A-Za-z0-9_ -]+)$')
   
   def _process_output_line(self, line):
     sentinel = '[INFO] '
@@ -158,8 +173,8 @@ class AdminClient(asynchat.async_chat):
         other_users = "None"
       else:
         other_users = ', '.join(self.users)
-      self.send_command('say Other players online: %s' % other_users)
       self.users.add(user)
+      self.on_logged_in(user)
       return
     
     # Handle logged out
@@ -167,11 +182,40 @@ class AdminClient(asynchat.async_chat):
     if match:
       user = match.group('user')
       self.users.discard(user)
+      self.on_logged_out(user)
+      return
+
+    # Handle list
+    match = AdminClient.__list_regex.match(line)
+    if match:
+      users = match.group('users')
+      users = users.split(',')
+      self.users = set(user.strip() for user in users)
+      return
+
+    # Handle command
+    match = AdminClient.__command_regex.match(line)
+    if match:
+      user = match.group('user')
+      command = match.group('command')
+      command = command.split()
+      command, args = command[0], command[1:]
+      self.on_user_command(user, command, args)
       return
     
     # Doesn't match anything we understand, queue it for other processors
     print line
     self._output.put(line)
+
+  def on_logged_in(self, user):
+    pass
+
+  def on_logged_out(self, user):
+    pass
+
+  def on_user_command(self, user, command, args):
+    pass
+  
 
 if __name__ == '__main__':
   args = sys.argv[1:]

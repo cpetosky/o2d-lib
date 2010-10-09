@@ -1,0 +1,31 @@
+Basic instructions:
+
+ 0) Verify if you actually need the sudo in the commands below -- depending
+    on how your machine is set up, you may or may not need rights to bind to
+    certain ports. Windows machines, for example, can generally bind on any
+    port as non-admin, while most Linux machines require rights for port 80
+    but not for the Minecraft ports.
+
+ 1) Get all the dependencies:
+  * Python >= 2.7 (2.6 will probably work too, but haven't tested it)
+  * CherryPy >= 3.1.2
+  * cypy.minecraft >= 1.0 (included)
+  * octosphere >= 1.0 (included)
+
+ 2) Spin up a minecraft server:
+  * sudo python -m cypy.minecraft server <secret>
+
+  Whatever secret you choose when you spin up the server is used for the
+  following services.
+
+ 3) Spin up a console command client and feature extender:
+  * sudo python -m octocraft.console <secret>
+
+ 4) Spin up the HTTP server:
+  * sudo python -m octocraft.web <secret>
+
+ 5) Spin up the IRC bot:
+  * sudo python -m octocraft.irc <secret>
+
+Cory Petosky, October 2010
+cory@petosky.net
