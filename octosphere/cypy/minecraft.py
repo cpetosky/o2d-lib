@@ -204,7 +204,7 @@ class AdminClient(asynchat.async_chat):
       return
     
     # Doesn't match anything we understand, queue it for other processors
-    print line
+    self.on_unknown_line(line)
     self._output.put(line)
 
   def on_logged_in(self, user):
@@ -216,6 +216,8 @@ class AdminClient(asynchat.async_chat):
   def on_user_command(self, user, command, args):
     pass
   
+  def on_unknown_line(self, line):
+    pass
 
 if __name__ == '__main__':
   args = sys.argv[1:]

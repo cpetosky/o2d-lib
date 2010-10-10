@@ -20,6 +20,9 @@ class FancyClient(minecraft.AdminClient):
         return
       target = random.choice(targets)
       self.send_command('tp %s %s' % (user, target))
+    
+  def on_unknown_line(self, line):
+    print line
 
 if __name__ == '__main__':
   args = sys.argv[1:]
