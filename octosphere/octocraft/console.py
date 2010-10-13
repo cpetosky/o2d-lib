@@ -27,8 +27,12 @@ class FancyClient(minecraft.AdminClient):
 if __name__ == '__main__':
   args = sys.argv[1:]
   secret = args[0]
+  if len(args) > 1:
+    host = args[1]
+  else:
+    host = 'localhost'
   client = FancyClient()
-  client.connect(secret)
+  client.connect(secret, host=host)
   client.run_async()
 
   while True:

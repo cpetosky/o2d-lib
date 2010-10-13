@@ -43,9 +43,17 @@ class MinecraftProcessor(octosphere.CommandProcessor):
 if __name__ == '__main__':
   args = sys.argv[1:]
   secret = args[0]
+  if len(args) > 1:
+    host = args[1]
+  else:
+    host = 'localhost'
+  if len(args) > 2:
+    irchost = args[2]
+  else:
+    irchost = 'irc.synirc.net'
   client = minecraft.AdminClient()
-  client.connect(secret)
+  client.connect(secret, host=host)
   bot = octosphere.Octosphere()
   bot.processors += [octosphere.DefaultProcessor(), MinecraftProcessor(secret)]
   bot.server = client
-  bot.start('irc.synirc.net')
+  bot.start(irchost)
