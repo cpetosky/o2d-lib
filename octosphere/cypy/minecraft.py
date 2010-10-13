@@ -84,7 +84,7 @@ class Server(asyncore.dispatcher):
       line = self.process.stdout.readline()
       for channel in self.channels:
         channel.push('%s' % line)
-      asyncore.loop(count=1)
+      asyncore.loop(timeout=0.1, count=1)
 
 
   def _process_output(self):
