@@ -78,17 +78,23 @@ class Server(asyncore.dispatcher):
     cmd = 'java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui'
     self.process = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     self._output = Queue()
+    thread.start_new(self._process_output, ())
 
     # Process connections
     while True:
+      try:
+        line = self._output.get_nowait()
+        for channel in self.channels:
+          channel.push('%s' % line)
+      except Empty:
+        pass  
       line = self.process.stdout.readline()
-      for channel in self.channels:
-        channel.push('%s' % line)
       asyncore.loop(timeout=0.1, count=1)
-
 
   def _process_output(self):
     """Processes the Minecraft server's output."""
+    line = self.process.stdout.readline()
+    self._output.put(line)
 
   def send_command(self, command):
     if command[-1:] != '\n':
