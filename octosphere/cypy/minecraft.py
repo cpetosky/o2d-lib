@@ -88,13 +88,13 @@ class Server(asyncore.dispatcher):
           channel.push('%s' % line)
       except Empty:
         pass  
-      line = self.process.stdout.readline()
       asyncore.loop(timeout=0.1, count=1)
 
   def _process_output(self):
     """Processes the Minecraft server's output."""
-    line = self.process.stdout.readline()
-    self._output.put(line)
+    while True:
+      line = self.process.stdout.readline()
+      self._output.put(line)
 
   def send_command(self, command):
     if command[-1:] != '\n':
