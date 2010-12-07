@@ -1,7 +1,8 @@
 from cypy import minecraft
 import cherrypy
+import optparse
 import os
-import sys
+import thread
 
 class MinecraftWebserver(object):
   def __init__(self, client):
@@ -31,10 +32,24 @@ class MinecraftWebserver(object):
     return template % '\n'.join(body)
 
 if __name__ == '__main__':
-  args = sys.argv[1:]
-  secret = args[0]
-  client = minecraft.AdminClient()
-  client.connect(secret)
-  client.run_async()
   cherrypy.config.update({'tools.staticdir.root': os.getcwd()})
-  cherrypy.quickstart(MinecraftWebserver(client), config='webserver.properties')
+  parser = optparse.OptionParser()
+  parser.add_option(
+      '-s', '--secret',
+      help='shared secret between servers and clients')
+  parser.add_option(
+      '-n', '--host', default='localhost',
+      help='host to connect to')
+  parser.add_option(
+      '-p', '--port', type='int', default=None,
+      help='port to listen/connect on')
+  options, args = parser.parse_args()
+
+  client = minecraft.AdminClient()
+  def ready_callback():
+    thread.start_new(
+        cherrypy.quickstart,
+        (MinecraftWebserver(client),), {'config': 'webserver.properties'})
+  
+  client.on_ready = ready_callback
+  client.connect(secret=options.secret, host=options.host, port=options.port)

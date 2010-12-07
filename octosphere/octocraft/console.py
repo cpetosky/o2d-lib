@@ -1,6 +1,8 @@
 from cypy import minecraft
+import optparse
 import random
-import sys
+import thread
+import time
 
 class FancyClient(minecraft.AdminClient):
   def on_logged_in(self, user):
@@ -8,7 +10,6 @@ class FancyClient(minecraft.AdminClient):
     self.send_command('say Other players online: %s' % users)
 
   def on_user_command(self, user, command, args):
-    print user, command
     if command == 'list':
       users = ', '.join(self.users)
       self.send_command('say Players online: %s' % users)
@@ -22,19 +23,27 @@ class FancyClient(minecraft.AdminClient):
       self.send_command('tp %s %s' % (user, target))
     
   def on_unknown_line(self, line):
-    print line
+    pass
+  
+  def on_ready(self):
+    thread.start_new(self._get_input, ())
+
+  def _get_input(self):
+    while True:
+      command = raw_input('> ')
+      client.send_command(command)
 
 if __name__ == '__main__':
-  args = sys.argv[1:]
-  secret = args[0]
-  if len(args) > 1:
-    host = args[1]
-  else:
-    host = 'localhost'
+  parser = optparse.OptionParser()
+  parser.add_option(
+      '-s', '--secret',
+      help='shared secret between servers and clients')
+  parser.add_option(
+      '-n', '--host', default='localhost',
+      help='host to connect to')
+  parser.add_option(
+      '-p', '--port', type='int', default=None,
+      help='port to listen/connect on')
+  options, args = parser.parse_args()
   client = FancyClient()
-  client.connect(secret, host=host)
-  client.run_async()
-
-  while True:
-    command = raw_input('> ')
-    client.send_command(command)
+  client.connect(secret=options.secret, host=options.host, port=options.port)

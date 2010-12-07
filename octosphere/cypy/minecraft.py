@@ -2,163 +2,92 @@
 
 Dependencies:
  * minecraft_server.jar
+ * twisted
 
 Cory Petosky, October 2010
 
 """
-import asyncore
-import asynchat
 import re
-import socket
-import sys
 import thread
+import optparse
 import os
 from subprocess import Popen, PIPE, STDOUT
 from Queue import Queue, Empty
 
-class Channel(asynchat.async_chat):
-  def __init__(self, server, socket, address):
-    asynchat.async_chat.__init__(self, socket)
-    self.server = server
-    self.socket = socket
-    self.set_terminator("\n")
-    self.data = ''
-    self.authed = False
+from twisted.internet import endpoints
+from twisted.internet import protocol
+from twisted.internet import reactor
+from twisted.protocols import basic
+
+DEFAULT_PORT = 25564
+
+class Channel(basic.LineReceiver):
+  delimiter = '\n'
+
+  def connectionMade(self):
+    self.factory.channels.append(self)
+    self.authed = not bool(self.factory.secret)
   
-  def handle_close(self):
-    self.server.channels.remove(self)
-    asynchat.async_chat.handle_close(self)
+  def connectionLost(self, reason):
+    self.factory.channels.remove(self)
 
-  def collect_incoming_data(self, data):
-    self.data += data
-
-  def found_terminator(self):
-    message = self.data
-    self.data = ''
+  def lineReceived(self, line):
     if self.authed:
-      self._handle_message(message)
+      self._handle_message(line)
     else:
-      self._handle_auth(message)
+      self._handle_auth(line)
 
   def _handle_message(self, message):
-    self.server.send_command(message)
+    self.factory.server.send_command(message)
 
   def _handle_auth(self, message):
-    if message != self.server.secret:
-      print 'auth fail, killing client'
-      self.close_when_done()
+    if message != self.factory.secret:
+      self.transport.loseConnection()
     else:
-      print 'auth success'
       self.authed = True
 
-class Server(asyncore.dispatcher):
-  """A wrapper for the Minecraft Server.
 
-  Opens a port on """
-  def __init__(self, path='', port=25564, secret='seekrit'):
-    asyncore.dispatcher.__init__(self)
-    self.secret = secret
+class Server(object):
+  """A wrapper for the Minecraft Server."""
+  def __init__(self, port=DEFAULT_PORT, path='', secret=None):
     self.port = port
+    self.factory = protocol.Factory()
+    self.factory.channels = []
+    self.factory.protocol = Channel
+    self.factory.secret = secret
+    self.factory.server = self
+
     if path[-4:] != '.jar':
       path = os.path.join(path, 'minecraft_server.jar')
     self.path = path
-    self.channels = []
 
-  def handle_accept(self):
-    conn, address = self.accept()
-    self.channels.append(Channel(self, conn, address))
-
-  def start(self):
-    # Start handling socket connections
-    self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
-    self.bind(('', self.port))
-    self.listen(5)
-    
+  def start(self):    
     # Start up the Minecraft server
     cmd = 'java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui'
-    self.process = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
-    self._output = Queue()
+    self.process = Popen(
+        cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT)
     thread.start_new(self._process_output, ())
-
-    # Process connections
-    while True:
-      try:
-        line = self._output.get_nowait()
-        for channel in self.channels:
-          channel.push('%s' % line)
-      except Empty:
-        pass  
-      asyncore.loop(timeout=0.1, count=1)
+    reactor.listenTCP(self.port, self.factory)
+    reactor.run()
 
   def _process_output(self):
     """Processes the Minecraft server's output."""
     while True:
-      line = self.process.stdout.readline()
-      self._output.put(line)
+      line = self.process.stdout.readline()[:-1]
+      for channel in self.factory.channels:
+        channel.sendLine(str(line))
+        channel.transport.doWrite()
 
   def send_command(self, command):
-    if command[-1:] != '\n':
+    if command[-1] != '\n':
       command += '\n'
-    print 'processing: %s' % command
     self.process.stdin.write(command)
 
-class AdminClient(asynchat.async_chat):
-  """An admin console that can connect to a cypy.minecraft.Server instance."""
-
-  def __init__(self):
-    asynchat.async_chat.__init__(self)
-    self.set_terminator('\n')
-    self.data = ''
-    self.users = set()
-    self._output = Queue()
-
-  def collect_incoming_data(self, data):
-    """Collect incoming data into a buffer for later processing."""
-    self.data += data
-
-  def found_terminator(self):
-    """Process the complete message stored on the buffer."""
-    message = self.data
-    self.data = ''
-    self._process_output_line(message)
-
-  def connect(self, password, host='localhost', port=25564):
-    self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
-    asynchat.async_chat.connect(self, (host, port))
-    self.send_command(password)
-
-    # immediately get player list, so our internal list is up-to-date
-    self.send_command('list')
-  
-  def run(self):
-    asyncore.loop()
-
-  def run_async(self):
-    thread.start_new(self.run, ())
-
-  def send_command(self, command):
-    if command[-1:] != '\n':
-      command += '\n'
-    self.push(command)
-
-  def get_output_line(self):
-    try:
-      return self._output.get(True, 2)
-    except Empty:
-      return None
-
-  def has_output(self):
-    return self._output.empty()
-
-  def clear_output(self):
-    try:
-      while True:
-        self._output.get_nowait()
-    except Empty:
-      pass
+class ClientChannel(basic.LineReceiver):
+  delimiter = '\n'
 
   __logged_in_regex = re.compile(
-      r'^(?P<user>[A-Za-z0-9_-]+) \[.*\] logged in$')
+      r'^(?P<user>[A-Za-z0-9_-]+) \[.*\] logged in with entity id [0-9]+$')
   __logged_out_regex = re.compile(
       r'^(?P<user>[A-Za-z0-9_-]+) lost connection:')
   __list_regex = re.compile(
@@ -166,52 +95,108 @@ class AdminClient(asynchat.async_chat):
   __command_regex = re.compile(
       r'^(?P<user>[A-Za-z0-9_-]+) tried command: (?P<command>[A-Za-z0-9_ -]+)$')
   
-  def _process_output_line(self, line):
+  def connectionMade(self):
+    self.client = self.factory.client
+    if self.client.secret:
+      self.send_command(self.client.secret)
+    self.send_command('list')
+    self.client.protocol = self
+    self.client.on_ready()
+
+  def send_command(self, command):
+    if len(command) == 0:
+      return
+    self.sendLine(str(command))
+    self.transport.doWrite()
+
+  def lineReceived(self, line):
     sentinel = '[INFO] '
     if sentinel in line:
       line = line[line.find(sentinel) + len(sentinel):]
+    print line
 
     # Handle logged in
-    match = AdminClient.__logged_in_regex.match(line)
+    match = self.__logged_in_regex.match(line)
     if match:
       user = match.group('user')
-      if len(self.users) == 0:
+      if len(self.client.users) == 0:
         other_users = "None"
       else:
         other_users = ', '.join(self.users)
-      self.users.add(user)
-      self.on_logged_in(user)
+      self.client.users.add(user)
+      self.client.on_logged_in(user)
       return
     
     # Handle logged out
-    match = AdminClient.__logged_out_regex.match(line)
+    match = self.__logged_out_regex.match(line)
     if match:
       user = match.group('user')
-      self.users.discard(user)
-      self.on_logged_out(user)
+      self.client.users.discard(user)
+      self.client.on_logged_out(user)
       return
 
     # Handle list
-    match = AdminClient.__list_regex.match(line)
+    match = self.__list_regex.match(line)
     if match:
       users = match.group('users')
       users = users.split(',')
-      self.users = set(user.strip() for user in users)
+      self.client.users = set(user.strip() for user in users)
       return
 
     # Handle command
-    match = AdminClient.__command_regex.match(line)
+    match = self.__command_regex.match(line)
     if match:
       user = match.group('user')
       command = match.group('command')
       command = command.split()
       command, args = command[0], command[1:]
-      self.on_user_command(user, command, args)
+      self.client.on_user_command(user, command, args)
       return
     
     # Doesn't match anything we understand, queue it for other processors
-    self.on_unknown_line(line)
-    self._output.put(line)
+    self.client.on_unknown_line(line)
+    self.client.output.put(line)
+
+
+class AdminClient(object):
+  """An admin console that can connect to a cypy.minecraft.Server instance."""
+
+  def connect(self, secret=None, host=None, port=None):
+    if not host:
+      host = 'localhost'
+    if not port:
+      port = DEFAULT_PORT
+    self.secret = secret
+    self.output = Queue()
+    self.users = set()
+    factory = protocol.ClientFactory()
+    factory.protocol = ClientChannel
+    factory.client = self
+    reactor.connectTCP(host, port, factory)
+    reactor.run()
+
+  def send_command(self, command):
+    if self.protocol:
+      self.protocol.send_command(command)
+
+  def get_output_line(self):
+    try:
+      return self.output.get(True, 2)
+    except Empty:
+      return None
+
+  def has_output(self):
+    return self.output.empty()
+
+  def clear_output(self):
+    try:
+      while True:
+        self.output.get_nowait()
+    except Empty:
+      pass
+
+  def on_ready(self):
+    pass
 
   def on_logged_in(self, user):
     pass
@@ -225,9 +210,20 @@ class AdminClient(asynchat.async_chat):
   def on_unknown_line(self, line):
     pass
 
+
 if __name__ == '__main__':
-  args = sys.argv[1:]
-  if args[0] == 'server':
-    secret = args[1]
-    server = Server(secret=secret)
+  parser = optparse.OptionParser()
+  parser.add_option(
+      '-m', '--mode', default='server',
+      help='one of "client","server" [default=server]')
+  parser.add_option(
+      '-s', '--secret',
+      help='shared secret between servers and clients')
+  parser.add_option(
+      '-p', '--port', type='int', default=DEFAULT_PORT,
+      help='port to listen/connect on')
+  options, args = parser.parse_args()
+  if options.mode == 'server':
+    server = Server(port=options.port, secret=options.secret)
     server.start()
+
