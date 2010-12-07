@@ -122,7 +122,7 @@ class ClientChannel(basic.LineReceiver):
       if len(self.client.users) == 0:
         other_users = "None"
       else:
-        other_users = ', '.join(self.users)
+        other_users = ', '.join(self.client.users)
       self.client.users.add(user)
       self.client.on_logged_in(user)
       return
